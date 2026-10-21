@@ -40,7 +40,7 @@ main {
 }
 
 
-main>section {
+main> section {
   margin-top: 130px;
 
 }
@@ -178,17 +178,13 @@ main>section {
   margin-bottom: 0px;
 
 }
-#experience-badge{
+.experience-badge{
+  background-color: #ff900e;
   padding: 45px 42px;
   font-size: 1.5rem;
   font-weight: 500;
   margin-left: -100px;
   margin-top: -100px;
-
-
-
-
-
 }
 #experience-year{
   font-size: 4rem;
@@ -268,9 +264,18 @@ padding-bottom: 20px;
   grid-template-columns: repeat(5, 1fr);
 
 }
-  #experience-badge{
-  margin-top: 20px;
-  margin-left: 20px;
+
+.copy-right{
+  height: 50px;
+  max-width: 540px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #FFF4E7;
+
+}
+.footer-text{padding-top: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -333,7 +338,7 @@ padding-bottom: 20px;
     gap: 50px;
     justify-items: center;
   }
-    #experience-badge{
+    .experience-badge{
   margin-top: 20px;
   margin-left: 20px;
 }
